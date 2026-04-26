@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Postura Canalla | Ergonomía y productividad para teletrabajo</title>
+    <meta
+      name="description"
+      content="Web de ergonomía y productividad para teletrabajar sin dolor: guías, comparativas y recomendaciones prácticas para espalda, cuello, muñecas y fatiga visual."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#inicio">Postura Canalla</a>
+        <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+        <nav class="nav" id="main-nav">
+          <a href="#problemas">Problemas</a>
+          <a href="#categorias">Categorías</a>
+          <a href="#articulos">Artículos</a>
+          <a href="#seo">Estrategia SEO</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="inicio">
+      <section class="hero container">
+        <p class="eyebrow">Teletrabajo sin crujidos</p>
+        <h1>Ergonomía y productividad para currar cómodo desde casa</h1>
+        <p class="lead">
+          Menos dolor de espalda, muñeca y cuello. Más foco, más orden y mejores decisiones de compra.
+          Sin humo. Sin postureo. Con soluciones que sí usas.
+        </p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="#problemas">Resolver mi dolor</a>
+          <a class="btn btn-ghost" href="#articulos">Ver guías y comparativas</a>
+        </div>
+      </section>
+
+      <section id="problemas" class="container section">
+        <h2>¿Qué te está fastidiando el día?</h2>
+        <div class="grid grid-3" id="problem-grid"></div>
+      </section>
+
+      <section id="categorias" class="container section">
+        <div class="section-head">
+          <h2>Categorías principales</h2>
+          <p>Elige por necesidad real, no por gadget brillante.</p>
+        </div>
+        <div class="grid grid-2" id="category-grid"></div>
+      </section>
+
+      <section class="container section highlight">
+        <h2>Checklist exprés para hoy</h2>
+        <ol>
+          <li>Sube la pantalla a altura de ojos.</li>
+          <li>Acerca ratón y teclado al cuerpo.</li>
+          <li>Programa pausas cada 50 minutos.</li>
+          <li>Quita el caos visual del escritorio.</li>
+        </ol>
+      </section>
+
+      <section id="articulos" class="container section">
+        <div class="section-head">
+          <h2>Primeros artículos publicados</h2>
+          <p>15 piezas base + 3 informativas para arrancar SEO y conversiones.</p>
+        </div>
+        <div class="filters">
+          <button class="chip is-active" data-filter="all">Todos</button>
+          <button class="chip" data-filter="guia">Guías</button>
+          <button class="chip" data-filter="comparativa">Comparativas</button>
+          <button class="chip" data-filter="informativo">Informativos</button>
+        </div>
+        <div class="grid grid-2" id="article-grid"></div>
+      </section>
+
+      <section id="seo" class="container section">
+        <h2>Roadmap SEO (3–6 meses)</h2>
+        <div class="grid grid-2">
+          <article class="card">
+            <h3>Fase 1 (Mes 1–2)</h3>
+            <ul>
+              <li>Publicar contenidos “dolor + solución”.</li>
+              <li>Construir clústeres por síntoma.</li>
+              <li>Optimizar snippets con beneficio directo.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Fase 2 (Mes 3–4)</h3>
+            <ul>
+              <li>Escalar guías transaccionales clave.</li>
+              <li>Interlinking agresivo informativo → compra.</li>
+              <li>Actualizar comparativas con bloques de decisión.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Fase 3 (Mes 5–6)</h3>
+            <ul>
+              <li>Consolidar reviews individuales.</li>
+              <li>Expandir long-tail de problemas específicos.</li>
+              <li>Refinar CTR con pruebas de títulos y metas.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Posicionamiento diferencial</h3>
+            <p>
+              Esta web no vende “Top 10 random”: resuelve dolores reales, propone hábitos aplicables y sugiere
+              productos cuando tiene sentido.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Postura Canalla</p>
+        <p>Afiliación transparente. Recomendaciones útiles. Humor con respeto.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
